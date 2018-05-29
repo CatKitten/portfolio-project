@@ -1,0 +1,183 @@
+#container {
+	font-family: 'Open Sans', sans-serif;
+	color: #313131;
+}
+
+/******GRID*******/
+
+.full-width {
+	width: 1200px;
+	margin: 0, auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+}
+
+/*****HEADER*******/
+
+header {
+	height: 800px;
+}
+
+nav {
+    float: right; 
+    padding: 25px 75px 0px 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #313131;
+    padding-left: 25px;
+    font-weight: bold; 
+}
+
+.headings {
+	padding-left: 100px;
+	padding-top: 50px;
+	float: left;
+}
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 64px;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	font-weight: lighter;
+}
+
+#nametext {
+	color: #ff654a;
+}
+
+/****ABOUT ME******/
+
+#aboutme {
+	height: 900px;
+	background: #ff654a;
+}
+
+#aboutme .full-width {
+	
+	margin: 0, auto;
+}
+
+#aboutme-content {
+	text-align: center;
+	padding: 50px 400px;
+	color: #ffffff;
+}
+
+#aboutme-content h3 {
+	
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+#myphoto {
+	border: 10px solid #ffffff;
+	border-radius: 50%;
+}
+
+#aboutme-content .subheader {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+#aboutme-content p {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+	font-weight: lighter;
+}
+
+/****PORTFOLIO******/
+
+#portfolio {
+	height: 650px;
+}
+
+#portfolio h3 {
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 36px;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+#portfolio img {
+	width: 500px;
+	border: 1px solid #b7b7b7;
+	margin: 50px 50px 20px 50px;
+	
+}
+
+#portfolio p {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sub-header {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	
+
+}
+
+/****CONTACT******/
+
+#contact {
+	height: 650px;
+	background: #ff654a;
+	color: #ffffff;
+
+}
+
+
+div .third-width p {
+text-align: center;
+}
+
+
+#contact h3 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 40px;
+}
+
+#contact img {
+	padding-left: 60px;
+}
+
+#contact a {
+	text-align: center;
+	color: #ffffff;
+}
+
+
+footer {
+	text-align: center;
+	padding-top: 355px;
+}
